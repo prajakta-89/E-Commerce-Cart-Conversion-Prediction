@@ -1,6 +1,27 @@
 # 🛒 E-Commerce-Cart-Conversion-Prediction
 An end-to-end Machine Learning project that predicts whether a customer will complete a purchase after adding products to their shopping cart. The project combines customer behavior, website activity, product information, order history, and customer service data to help e-commerce businesses reduce cart abandonment and improve conversion rates.
 
+## Table of Contents
+
+- [Project Overview](#project-overview)
+- [Business Problem](#business-problem)
+- [Dashboard Preview](#dashboard-preview)
+- [Solution](#solution)
+- [Project Structure](#project-structure)
+- [Machine Learning Models](#machine-learning-models)
+- [Model Evaluation](#model-evaluation)
+- [Exploratory Data Analysis & Visualizations](#-exploratory-data-analysis--visualizations)
+- [Dataset Information](#dataset-information)
+- [Data Preprocessing](#data-preprocessing)
+- [Feature Importance](#feature-importance)
+- [Exploratory Data Analysis](#exploratory-data-analysis)
+- [Technology Used](#technology-used)
+- [Installation](#installation)
+- [Business Insights](#business-insights)
+- [Business Impact](#business-impact)
+- [Future Enhancements](#future-enhancements)
+- [Author](#author)
+
 ## Project Overview
 
 Cart abandonment is one of the biggest challenges faced by e-commerce businesses, resulting in significant revenue loss. This project develops a predictive machine learning model to identify customers who are likely to abandon their carts before completing a purchase.
