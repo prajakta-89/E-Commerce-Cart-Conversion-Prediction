@@ -177,15 +177,14 @@ Customer engagement, shopping behavior, and product-related attributes have the 
 - Recover lost revenue.
 - Support business decision-making using predictive analytics.
 
-# 📊 Dataset Information
+## Dataset Information
 
 The Cart Conversion Prediction project uses multiple datasets representing different aspects of an e-commerce business. These datasets were integrated to build a comprehensive view of customer behavior and improve the accuracy of purchase prediction.
 
 The final analytical dataset was created by merging customer information, website activity, product details, order history, and customer service records using unique identifiers.
 
----
 
-## Dataset Summary
+### Dataset Summary
 
 | Dataset | Description | Key Identifier |
 |----------|-------------|---------------|
@@ -195,11 +194,11 @@ The final analytical dataset was created by merging customer information, websit
 | Orders | Product purchases made by customers | Customer_ID, Product_ID |
 | Products | Product details including ratings, price, and return rate | Product_ID |
 
----
 
-# 1️⃣ Website Activity Dataset
 
-### Purpose
+### Website Activity Dataset
+
+**Purpose**
 
 This dataset captures how customers interact with the e-commerce website before making a purchase decision. It provides behavioral information that helps understand customer engagement and browsing patterns.
 
@@ -219,9 +218,9 @@ This dataset captures how customers interact with the e-commerce website before 
 
 Website activity provides valuable insights into customer engagement. Customers who browse more pages and spend more time on the website are generally more likely to complete a purchase.
 
----
 
-# 2️⃣ Customer Department Targets Dataset
+
+## Customer Department Targets Dataset
 
 ### Purpose
 
@@ -248,7 +247,7 @@ Customer profile information helps identify loyal, high-value customers and meas
 
 ---
 
-# 3️⃣ Customer Service Dataset
+## Customer Service Dataset
 
 ### Purpose
 
@@ -277,7 +276,7 @@ Customer satisfaction has a direct influence on repeat purchases. Customers with
 
 ---
 
-# 4️⃣ Orders Dataset
+## Orders Dataset
 
 ### Purpose
 
@@ -298,7 +297,7 @@ Order history helps understand purchasing frequency and customer buying behavior
 
 ---
 
-# 5️⃣ Products Dataset
+## 5️⃣ Products Dataset
 
 ### Purpose
 
@@ -327,30 +326,6 @@ Generated Features
 
 Product quality and pricing strongly influence purchase decisions. Customers tend to purchase products with higher ratings and lower return rates.
 
----
-
-# 🔗 Data Integration Process
-
-The final dataset was created through a sequence of merge operations.
-
-```
-Website Activity
-        │
-        ▼
-Customer Profile
-        │
-        ▼
-Customer Service Aggregation
-        │
-        ▼
-Orders
-        │
-        ▼
-Products
-        │
-        ▼
-Final Machine Learning Dataset
-```
 
 Datasets were merged using:
 
@@ -359,9 +334,8 @@ Datasets were merged using:
 
 This integration ensured that every customer record contained website behavior, purchasing history, product characteristics, and customer satisfaction metrics.
 
----
 
-# ⚙️ Final Machine Learning Dataset
+## Final Machine Learning Dataset
 
 After preprocessing and feature engineering, the final dataset contained the following features:
 
@@ -431,33 +405,9 @@ Purchase_After_Cart
 - **Missing Values:** Handled during preprocessing
 - **Class Imbalance:** Addressed using SMOTE
 - **Train-Test Split:** 80:20 using Stratified Sampling
-
-
-
-# 🎯 Why Multiple Datasets?
-
-Instead of relying only on website activity, this project integrates multiple business domains to capture the complete customer journey.
-
-By combining browsing behavior, customer profile, purchase history, product characteristics, marketing engagement, and satisfaction scores, the model gains a richer understanding of customer behavior and can make more accurate predictions about whether a customer will complete a purchase after adding items to their cart.
-## Dataset Information
-
-The project uses multiple datasets representing different business domains.
-
-| Dataset | Description |
-|----------|-------------|
-| Website Activity | Customer browsing behavior and session information |
-| Customer Department Targets | Customer demographics and loyalty information |
-| Orders | Historical order information |
-| Products | Product details, ratings, pricing and return rate |
-| Customer Service | Customer satisfaction and service interactions |
-
-Total Records:
-
-- **300,000+ customer sessions**
-
+- 
 
 ## Data Preprocessing
-
 The following preprocessing steps were performed:
 
 - Removed unnecessary columns
@@ -471,7 +421,6 @@ The following preprocessing steps were performed:
 - Train-Test Split using Stratified Sampling
 
 ## Feature Engineering
-
 Engineered features include:
 
 - Avg_Service_Satisfaction
