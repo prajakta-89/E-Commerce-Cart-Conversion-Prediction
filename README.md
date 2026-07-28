@@ -56,9 +56,7 @@ The following visualizations provide insights into customer behavior, purchase p
   <img src="Images/Target_Distribution.png" width="500"/>
 </p>
 
-### Description
-
-This chart shows the distribution of the target variable **Purchase_After_Cart**.
+- This chart shows the distribution of the target variable **Purchase_After_Cart**.
 
 - **0 → Cart Abandonment**
 - **1 → Purchase Completion**
@@ -90,9 +88,7 @@ This severe class imbalance justified the use of **SMOTE** during model training
   <img src="Images/Hist_Plot.png" width="600"/>
 </p>
 
-### Description
-
-Histograms display the distribution of important numerical features such as:
+- Histograms display the distribution of important numerical features such as:
 
 - Pages Viewed
 - Session Duration
@@ -111,9 +107,7 @@ The distributions reveal customer browsing and purchasing patterns, helping iden
   <img src="Images/Heatmap.png" width="600"/>
 </p>
 
-### Description
-
-The heatmap illustrates the correlation between numerical features in the dataset.
+- The heatmap illustrates the correlation between numerical features in the dataset.
 
 ### Key Insight
 
@@ -128,9 +122,7 @@ The heatmap illustrates the correlation between numerical features in the datase
   <img src="Images/Important_Features.png" width="700"/>
 </p>
 
-### Description
-
-Feature importance identifies the variables that contribute most to predicting purchase completion.
+- Feature importance identifies the variables that contribute most to predicting purchase completion.
 
 ### Top Influential Features
 
