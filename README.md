@@ -46,6 +46,107 @@ The model analyzes customer behavior, website interactions, purchase history, pr
 images/dashboard.png
 ```
 
+## 📊 Exploratory Data Analysis & Visualizations
+
+The following visualizations provide insights into customer behavior, purchase patterns, and the key factors influencing cart conversion.
+
+
+
+##  1. Target Distribution
+
+![Target Distribution](images/Target_Distribution.png)
+
+### Description
+
+This chart shows the distribution of the target variable **Purchase_After_Cart**.
+
+- **0 → Cart Abandonment**
+- **1 → Purchase Completion**
+
+### Key Insight
+
+- Approximately **83%** of customers abandoned their carts.
+- Only **17%** completed their purchase.
+
+This severe class imbalance justified the use of **SMOTE** during model training.
+
+
+
+## 📈 2. Feature Distribution
+
+![Feature Distribution](images/Hist_Plot.png)
+
+### Description
+
+Histograms display the distribution of important numerical features such as:
+
+- Pages Viewed
+- Session Duration
+- Customer Lifetime Value
+- Average Order Value
+- Product Rating
+
+### Key Insight
+
+The distributions reveal customer browsing and purchasing patterns, helping identify skewed variables and understand customer engagement before model training.
+
+
+
+##  3. Correlation Heatmap
+
+![Correlation Heatmap](images/Heatmap.png)
+
+### Description
+
+The heatmap illustrates the correlation between numerical features in the dataset.
+
+### Key Insight
+
+- Strong positive relationships indicate features that increase purchase probability.
+- Weakly correlated variables provide unique information to the model.
+- The heatmap also helps identify multicollinearity among features.
+
+---
+
+##  4. Feature Importance
+
+![Feature Importance](images/Important_Features.png)
+
+### Description
+
+Feature importance identifies the variables that contribute most to predicting purchase completion.
+
+### Top Influential Features
+
+- Added_To_Cart
+- Session_Duration
+- Avg_Return_Rate
+- Avg_Product_Price
+- Avg_Order_Value
+- Customer_Lifetime_Value
+- Pages_Viewed
+
+### Key Insight
+
+Customer engagement, shopping behavior, and product-related attributes have the strongest influence on conversion.
+
+
+
+## 📉 5. ROC Curve
+
+![ROC Curve](Images/Roc_Curve.png)
+
+### Description
+
+The ROC Curve evaluates the model's ability to distinguish between customers who will purchase and those who will abandon their carts.
+
+### Key Insight
+
+- A curve closer to the top-left corner indicates better model performance.
+- ROC-AUC provides a threshold-independent measure of classification quality.
+- Higher AUC values indicate stronger predictive capability.
+
+
 ## Objectives
 
 - Predict customer purchase completion.
@@ -163,8 +264,6 @@ The developed solution enables the company to:
 - Enhance customer experience.
 
 
-
-
 ## Technology Stack
 
 ### Programming
@@ -202,7 +301,7 @@ Cart-Conversion-Prediction/
 │   └── Customer_Service.csv
 │
 ├── notebooks/
-│   └── Cart_Conversion_Prediction.ipynb
+│   └── E_Commerce_Cart_Conversion_Prediction.ipynb
 │
 ├── models/
 │   └── cart_conversion_model.pkl
@@ -211,7 +310,8 @@ Cart-Conversion-Prediction/
 │   └── app.py
 │
 ├── Images/
-│   └── dashboard.png
+│   ├── Dashboard1.png
+│   └── Dashboard_2.png
 │
 ├── Requirements.txt
 │
