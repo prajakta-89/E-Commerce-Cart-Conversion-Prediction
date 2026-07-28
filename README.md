@@ -38,7 +38,9 @@ The model analyzes customer behavior, website interactions, purchase history, pr
 ## Dashboard Preview
 
 ### Streamlit Dashboard
-
+<p>
+  <img src="Images/Dashboard1.png" width="700"/>
+</p>
 
 ```
 images/dashboard.png
