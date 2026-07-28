@@ -188,13 +188,12 @@ The final analytical dataset was created by merging customer information, websit
 
 ### Dataset Summary
 
-| Dataset | Description | Key Identifier |
-|----------|-------------|---------------|
-| Website_Activity | Customer browsing and session behavior | Customer_ID |
-| Customer_Department_Targets | Customer profile and purchasing history | Customer_ID |
-| Customer_Service | Customer service interactions and satisfaction | Customer_ID |
-| Orders | Product purchases made by customers | Customer_ID, Product_ID |
-| Products | Product details including ratings, price, and return rate | Product_ID |
+Dataset
+- Website_Activity 
+- Customer_Department_Targets
+- Customer_Service
+- Orders
+- Products
 
 
 
