@@ -1,15 +1,14 @@
 # 🛒 E-Commerce-Cart-Conversion-Prediction
 An end-to-end Machine Learning project that predicts whether a customer will complete a purchase after adding products to their shopping cart. The project combines customer behavior, website activity, product information, order history, and customer service data to help e-commerce businesses reduce cart abandonment and improve conversion rates.
 
-# 📌 Project Overview
+## Project Overview
 
 Cart abandonment is one of the biggest challenges faced by e-commerce businesses, resulting in significant revenue loss. This project develops a predictive machine learning model to identify customers who are likely to abandon their carts before completing a purchase.
 
 The solution enables businesses to take proactive actions such as personalized offers, reminder emails, and targeted marketing campaigns to increase conversion rates and recover lost revenue.
 
----
 
-# 🎯 Business Problem
+## Business Problem
 
 ShopSphere, a large e-commerce retailer, observed that a high percentage of customers add products to their shopping carts but leave the website without completing their purchases.
 
@@ -24,7 +23,7 @@ The company requires a predictive analytics solution capable of identifying cust
 
 ---
 
-# 💡 Solution
+## Solution
 
 A Machine Learning Cart Conversion Prediction System was developed to predict whether a customer will complete a purchase after adding products to the cart.
 
@@ -35,9 +34,8 @@ A Machine Learning Cart Conversion Prediction System was developed to predict wh
 
 The model analyzes customer behavior, website interactions, purchase history, product information, and satisfaction metrics to estimate purchase probability.
 
----
 
-# 🎯 Objectives
+## Objectives
 
 - Predict customer purchase completion.
 - Identify customers at risk of cart abandonment.
@@ -46,9 +44,8 @@ The model analyzes customer behavior, website interactions, purchase history, pr
 - Recover lost revenue.
 - Support business decision-making using predictive analytics.
 
----
 
-# 📊 Dataset Information
+## Dataset Information
 
 The project uses multiple datasets representing different business domains.
 
@@ -64,9 +61,8 @@ Total Records:
 
 - **300,000+ customer sessions**
 
----
 
-# 🗂 Data Preprocessing
+## Data Preprocessing
 
 The following preprocessing steps were performed:
 
@@ -80,9 +76,7 @@ The following preprocessing steps were performed:
 - Class imbalance handling using SMOTE
 - Train-Test Split using Stratified Sampling
 
----
-
-# ⚙️ Feature Engineering
+## Feature Engineering
 
 Engineered features include:
 
@@ -96,9 +90,8 @@ Engineered features include:
 - Total_Orders
 - Recency_Days
 
----
 
-# 🤖 Machine Learning Models
+## Machine Learning Models
 
 The following models were trained and evaluated:
 
@@ -109,9 +102,8 @@ The following models were trained and evaluated:
 - Gradient Boosting
 - XGBoost
 
----
 
-# 📈 Model Evaluation
+## Model Evaluation
 
 Evaluation metrics used:
 
@@ -122,9 +114,7 @@ Evaluation metrics used:
 - ROC-AUC Score
 - Confusion Matrix
 
----
-
-# 📊 Exploratory Data Analysis
+## Exploratory Data Analysis
 
 Key analyses performed:
 
@@ -138,9 +128,7 @@ Key analyses performed:
 - Pages Viewed Analysis
 - Feature Importance
 
----
-
-# 📉 Business Insights
+## Business Insights
 
 Key findings include:
 
@@ -151,9 +139,9 @@ Key findings include:
 - Marketing engagement significantly impacts conversion.
 - Product ratings and pricing influence customer purchase decisions.
 
----
 
-# 💼 Business Impact
+
+## Business Impact
 
 The developed solution enables the company to:
 
@@ -165,9 +153,8 @@ The developed solution enables the company to:
 - Increase checkout completion rate.
 - Enhance customer experience.
 
----
 
-# 📷 Dashboard Preview
+## Dashboard Preview
 
 ### Streamlit Dashboard
 
@@ -177,9 +164,9 @@ The developed solution enables the company to:
 images/dashboard.png
 ```
 
----
 
-# 🛠 Technology Stack
+
+## Technology Stack
 
 ### Programming
 
@@ -201,9 +188,9 @@ images/dashboard.png
 - Seaborn
 - Streamlit
 
----
 
-# 📂 Project Structure
+
+## Project Structure
 
 ```
 Cart-Conversion-Prediction/
@@ -232,9 +219,7 @@ Cart-Conversion-Prediction/
 └── README.md
 ```
 
----
-
-# 🚀 Installation
+## Installation
 
 ```bash
 git clone https://github.com/yourusername/Cart-Conversion-Prediction.git
@@ -254,9 +239,7 @@ Run the Streamlit application
 streamlit run app.py
 ```
 
----
-
-# 📌 Future Enhancements
+## Future Enhancements
 
 - Deep Learning Model
 - Real-Time Prediction API
@@ -265,20 +248,11 @@ streamlit run app.py
 - Automated Marketing Campaign Trigger
 - Cloud Deployment (AWS/Azure)
 
----
 
-# 👩‍💻 Author
-
+## Author
 **Prajakta Bhondave**
+- Aspiring Data Analyst | Python | SQL | Power BI | Machine Learning | Streamlit
 
-Aspiring Data Analyst | Python | SQL | Power BI | Machine Learning | Streamlit
+LinkedIn: https://www.linkedin.com/in/prajakta-bhondave-773b092a6/
 
-**LinkedIn:**  
-https://www.linkedin.com/in/prajakta-bhondave-773b092a6/
-
-**GitHub:**  
-https://github.com/prajakta-89
-
----
-
-# ⭐ If you found this project helpful, consider giving it a star!
+GitHub: https://github.com/prajakta-89
