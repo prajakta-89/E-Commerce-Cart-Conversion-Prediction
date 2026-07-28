@@ -196,14 +196,12 @@ The final analytical dataset was created by merging customer information, websit
 
 
 
-### Website Activity Dataset
-
-**Purpose**
+### 1. Website Activity Dataset
+### Purpose
 
 This dataset captures how customers interact with the e-commerce website before making a purchase decision. It provides behavioral information that helps understand customer engagement and browsing patterns.
 
 ### Features
-
 | Feature | Description |
 |----------|-------------|
 | Customer_ID | Unique identifier for each customer |
@@ -215,13 +213,11 @@ This dataset captures how customers interact with the e-commerce website before 
 | Purchase_After_Cart | Target variable (0 = Cart Abandonment, 1 = Purchase Completion) |
 
 ### Business Importance
-
 Website activity provides valuable insights into customer engagement. Customers who browse more pages and spend more time on the website are generally more likely to complete a purchase.
 
 
 
-## Customer Department Targets Dataset
-
+### 2. Customer Department Targets Dataset
 ### Purpose
 
 This dataset contains customer profile information, loyalty details, purchasing history, and marketing engagement metrics.
@@ -245,9 +241,8 @@ This dataset contains customer profile information, loyalty details, purchasing 
 
 Customer profile information helps identify loyal, high-value customers and measures long-term purchasing behavior. These variables are essential for understanding customer retention and future purchase potential.
 
----
 
-## Customer Service Dataset
+### 3. Customer Service Dataset
 
 ### Purpose
 
@@ -276,7 +271,7 @@ Customer satisfaction has a direct influence on repeat purchases. Customers with
 
 ---
 
-## Orders Dataset
+### 4. Orders Dataset
 
 ### Purpose
 
@@ -295,9 +290,9 @@ The Orders dataset stores historical purchase information for customers.
 
 Order history helps understand purchasing frequency and customer buying behavior. It also enables linking customers with product information.
 
----
 
-## 5️⃣ Products Dataset
+
+### 5. Products Dataset
 
 ### Purpose
 
@@ -335,7 +330,7 @@ Datasets were merged using:
 This integration ensured that every customer record contained website behavior, purchasing history, product characteristics, and customer satisfaction metrics.
 
 
-## Final Machine Learning Dataset
+### Final Machine Learning Dataset
 
 After preprocessing and feature engineering, the final dataset contained the following features:
 
@@ -395,7 +390,7 @@ Purchase_After_Cart
 
 
 
-# 📈 Dataset Characteristics
+## Dataset Characteristics
 
 - **Total Customer Sessions:** 300,000
 - **Multiple Data Sources:** 5
@@ -472,7 +467,6 @@ Key analyses performed:
 
 
 ## Technology Used
-### Programming
 
 - Python
 
@@ -538,7 +532,7 @@ The developed solution enables the company to:
 
 ## Author
 **Prajakta Bhondave**
-- Aspiring Data Analyst | Python | SQL | Power BI | Machine Learning | Streamlit
+Aspiring Data Analyst | Python | SQL | Power BI | Machine Learning | Streamlit
 
 LinkedIn: https://www.linkedin.com/in/prajakta-bhondave-773b092a6/
 
