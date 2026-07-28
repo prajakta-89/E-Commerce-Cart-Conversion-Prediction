@@ -35,6 +35,15 @@ A Machine Learning Cart Conversion Prediction System was developed to predict wh
 The model analyzes customer behavior, website interactions, purchase history, product information, and satisfaction metrics to estimate purchase probability.
 
 
+## Dashboard Preview
+
+### Streamlit Dashboard
+
+
+```
+images/dashboard.png
+```
+
 ## Objectives
 
 - Predict customer purchase completion.
@@ -153,16 +162,6 @@ The developed solution enables the company to:
 - Increase checkout completion rate.
 - Enhance customer experience.
 
-
-## Dashboard Preview
-
-### Streamlit Dashboard
-
-(Add dashboard screenshots here)
-
-```
-images/dashboard.png
-```
 
 
 
