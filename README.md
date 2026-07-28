@@ -73,12 +73,10 @@ This severe class imbalance justified the use of **SMOTE** during model training
 
 ##  2. ROC Curve
 <p>
-  <img src="Images/Roc_Curve.png" width="400"/>
+  <img src="Images/Roc_Curve.png" width="500"/>
 </p>
 
-### Description
-
-The ROC Curve evaluates the model's ability to distinguish between customers who will purchase and those who will abandon their carts.
+- The ROC Curve evaluates the model's ability to distinguish between customers who will purchase and those who will abandon their carts.
 
 ### Key Insight
 
