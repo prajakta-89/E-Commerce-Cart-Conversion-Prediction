@@ -365,22 +365,14 @@ The following preprocessing steps were performed:
 - Train-Test Split using Stratified Sampling
 
 ## Feature Importance
-- Added_To_Cart
-- Session_Duration
-- Avg_Return_Rate
-- Avg_Product_Price
-- Avg_Order_Value
-- Customer_Lifetime_Value
-- Pages_Viewed
-
-### Key Insight
-Customer engagement, shopping behavior, and product-related attributes have the strongest influence on conversion.
 
 <p>
   <img src="Images/Important_Features.png" width="700"/>
 </p>
 
-- Feature importance identifies the variables that contribute most to predicting purchase completion.
+### Key Insight
+Feature importance identifies the variables that contribute most to predicting purchase completion.
+Customer engagement, shopping behavior, and product-related attributes have the strongest influence on conversion.
 
 
 
