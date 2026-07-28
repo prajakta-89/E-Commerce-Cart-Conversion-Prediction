@@ -42,9 +42,6 @@ The model analyzes customer behavior, website interactions, purchase history, pr
   <img src="Images/Dashboard1.png" width="800"/>
 </p>
 
-```
-images/dashboard.png
-```
 
 ## 📊 Exploratory Data Analysis & Visualizations
 
@@ -53,8 +50,9 @@ The following visualizations provide insights into customer behavior, purchase p
 
 
 ##  1. Target Distribution
-
-![Target Distribution](images/Target_Distribution.png)
+<p>
+  <img src="Images/Target_Distribution" width="800"/>
+</p>
 
 ### Description
 
@@ -73,8 +71,9 @@ This severe class imbalance justified the use of **SMOTE** during model training
 
 
 ## 📈 2. Feature Distribution
-
-![Feature Distribution](images/Hist_Plot.png)
+<p>
+  <img src="Images/Hist_Plot" width="800"/>
+</p>
 
 ### Description
 
@@ -93,8 +92,9 @@ The distributions reveal customer browsing and purchasing patterns, helping iden
 
 
 ##  3. Correlation Heatmap
-
-![Correlation Heatmap](images/Heatmap.png)
+<p>
+  <img src="Images/Heatmap" width="800"/>
+</p>
 
 ### Description
 
@@ -109,8 +109,9 @@ The heatmap illustrates the correlation between numerical features in the datase
 ---
 
 ##  4. Feature Importance
-
-![Feature Importance](images/Important_Features.png)
+<p>
+  <img src="Images/Important_Features" width="800"/>
+</p>
 
 ### Description
 
@@ -133,8 +134,9 @@ Customer engagement, shopping behavior, and product-related attributes have the 
 
 
 ## 📉 5. ROC Curve
-
-![ROC Curve](Images/Roc_Curve.png)
+<p>
+  <img src="Images/Roc_Curve" width="800"/>
+</p>
 
 ### Description
 
