@@ -269,7 +269,6 @@ Avg_Service_Satisfaction
 
 Customer satisfaction has a direct influence on repeat purchases. Customers with higher satisfaction scores generally demonstrate higher purchase conversion rates.
 
----
 
 ### 4. Orders Dataset
 
@@ -321,74 +320,12 @@ Generated Features
 
 Product quality and pricing strongly influence purchase decisions. Customers tend to purchase products with higher ratings and lower return rates.
 
-
 Datasets were merged using:
 
 - Customer_ID
 - Product_ID
 
 This integration ensured that every customer record contained website behavior, purchasing history, product characteristics, and customer satisfaction metrics.
-
-
-### Final Machine Learning Dataset
-
-After preprocessing and feature engineering, the final dataset contained the following features:
-
-### Customer Behavior
-
-- Pages_Viewed
-- Session_Duration
-- Added_To_Cart
-
-### Customer Profile
-
-- Loyalty_Tier
-- Tenure_Months
-- Last_Login_Days_Ago
-- Total_Orders
-- Avg_Order_Value
-- Recency_Days
-- Customer_Lifetime_Value
-
-### Marketing Engagement
-
-- Campaign_Click_Rate
-
-### Customer Satisfaction
-
-- Avg_Satisfaction
-- Avg_Service_Satisfaction
-
-### Product Features
-
-- Avg_Product_Rating
-- Avg_Product_Price
-- Avg_Return_Rate
-
-### Encoded Features
-
-- Device_Type_Desktop
-- Device_Type_Tablet
-- Device_Type_iOS
-- Traffic_Source_Organic
-- Traffic_Source_Paid Search
-- Traffic_Source_Referral
-- Traffic_Source_Social
-- Loyalty_Tier_Gold
-- Loyalty_Tier_Platinum
-- Loyalty_Tier_Silver
-
-### Target Variable
-
-```
-Purchase_After_Cart
-
-0 → Cart Abandonment
-
-1 → Purchase Completion
-```
-
-
 
 ## Dataset Characteristics
 
