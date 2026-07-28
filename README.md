@@ -45,10 +45,43 @@ The model analyzes customer behavior, website interactions, purchase history, pr
 </p>
 
 
+## Project Structure
+
+```
+Cart-Conversion-Prediction/
+│
+├── Datasets/
+│   ├── Website_Activity.csv
+│   ├── Customer_Department_Targets.csv
+│   ├── Products.csv
+│   ├── Orders.csv
+│   └── Customer_Service.csv
+│
+├── notebooks/
+│   └── E_Commerce_Cart_Conversion_Prediction.ipynb
+│
+├── models/
+│   └── cart_conversion_model.pkl
+│
+├── Streamlit_Dashboard/
+│   └── app.py
+│
+├── Images/
+│   ├── Dashboard1.png
+│   ├── Important_Features
+│   ├── Roc_Curve
+│   ├── Hist_Plot
+│   ├── Heatmap
+│   ├── Target_Distribution
+│   └── Dashboard_2.png
+│
+├── Requirements.txt
+│
+└── README.md
+```
+
 ## 📊 Exploratory Data Analysis & Visualizations
-
 The following visualizations provide insights into customer behavior, purchase patterns, and the key factors influencing cart conversion.
-
 
 
 ##  1. Target Distribution
@@ -230,40 +263,7 @@ Key analyses performed:
 - Pages Viewed Analysis
 - Feature Importance
 
-## Project Structure
 
-```
-Cart-Conversion-Prediction/
-│
-├── Datasets/
-│   ├── Website_Activity.csv
-│   ├── Customer_Department_Targets.csv
-│   ├── Products.csv
-│   ├── Orders.csv
-│   └── Customer_Service.csv
-│
-├── notebooks/
-│   └── E_Commerce_Cart_Conversion_Prediction.ipynb
-│
-├── models/
-│   └── cart_conversion_model.pkl
-│
-├── Streamlit_Dashboard/
-│   └── app.py
-│
-├── Images/
-│   ├── Dashboard1.png
-│   ├── Important_Features
-│   ├── Roc_Curve
-│   ├── Hist_Plot
-│   ├── Heatmap
-│   ├── Target_Distribution
-│   └── Dashboard_2.png
-│
-├── Requirements.txt
-│
-└── README.md
-```
 
 ## Business Insights
 
