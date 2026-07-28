@@ -21,7 +21,7 @@ This behavior results in:
 
 The company requires a predictive analytics solution capable of identifying customers who are likely to abandon their carts so that timely interventions can be applied.
 
----
+
 
 ## Solution
 
@@ -221,11 +221,6 @@ Cart-Conversion-Prediction/
 
 ## Installation
 
-```bash
-git clone https://github.com/yourusername/Cart-Conversion-Prediction.git
-
-cd Cart-Conversion-Prediction
-```
 
 Install dependencies
 
