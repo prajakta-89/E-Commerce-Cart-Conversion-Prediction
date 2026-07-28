@@ -60,8 +60,10 @@ Cart-Conversion-Prediction/
 ├── notebooks/
 │   └── E_Commerce_Cart_Conversion_Prediction.ipynb
 │
-├── models/
-│   └── cart_conversion_model.pkl
+├── Model_Files/
+│   ├── threshold.pkl
+│   ├── features.pkl
+│   └── rf_model.pkl
 │
 ├── Streamlit_Dashboard/
 │   └── app.py
