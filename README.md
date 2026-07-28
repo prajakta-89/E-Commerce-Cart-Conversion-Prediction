@@ -204,13 +204,15 @@ The final analytical dataset was created by merging customer information, websit
 This dataset captures how customers interact with the e-commerce website before making a purchase decision. It provides behavioral information that helps understand customer engagement and browsing patterns.
 
 ### Features
-- Customer_ID -> Unique identifier for each customer
-- Device_Type -> Device used to browse the website (Desktop, Tablet, iOS, etc.)
-- Traffic_Source -> Source through which the customer visited the website (Organic, Social, Referral, Paid Search)
-- Pages_Viewed -> Total number of pages visited during the session
-- Session_Duration -> Total time spent on the website
-- Added_To_Cart -> Indicates whether products were added to the shopping cart
-- Purchase_After_Cart -> Target variable (0 = Cart Abandonment, 1 = Purchase Completion)
+| Feature | Description |
+|----------|-------------|
+| Customer_ID | Unique identifier for each customer |
+| Device_Type | Device used to browse the website (Desktop, Tablet, iOS, etc.) |
+| Traffic_Source | Source through which the customer visited the website (Organic, Social, Referral, Paid Search) |
+| Pages_Viewed | Total number of pages visited during the session |
+| Session_Duration | Total time spent on the website |
+| Added_To_Cart | Indicates whether products were added to the shopping cart |
+| Purchase_After_Cart | Target variable (0 = Cart Abandonment, 1 = Purchase Completion) |
 
 ### Business Importance
 Website activity provides valuable insights into customer engagement. Customers who browse more pages and spend more time on the website are generally more likely to complete a purchase.
