@@ -150,7 +150,7 @@ The distributions reveal customer browsing and purchasing patterns, helping iden
 
 
 
-## 📉 5. Feature Importance
+##  5. Feature Importance
 <p>
   <img src="Images/Important_Features.png" width="700"/>
 </p>
