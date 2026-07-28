@@ -71,8 +71,23 @@ This chart shows the distribution of the target variable **Purchase_After_Cart**
 This severe class imbalance justified the use of **SMOTE** during model training.
 
 
+##  2. ROC Curve
+<p>
+  <img src="Images/Roc_Curve.png" width="400"/>
+</p>
 
-## 📈 2. Feature Distribution
+### Description
+
+The ROC Curve evaluates the model's ability to distinguish between customers who will purchase and those who will abandon their carts.
+
+### Key Insight
+
+- A curve closer to the top-left corner indicates better model performance.
+- ROC-AUC provides a threshold-independent measure of classification quality.
+- Higher AUC values indicate stronger predictive capability.
+
+
+##  3. Feature Distribution
 <p>
   <img src="Images/Hist_Plot.png" width="600"/>
 </p>
@@ -93,7 +108,7 @@ The distributions reveal customer browsing and purchasing patterns, helping iden
 
 
 
-##  3. Correlation Heatmap
+##  4. Correlation Heatmap
 <p>
   <img src="Images/Heatmap.png" width="600"/>
 </p>
@@ -108,28 +123,11 @@ The heatmap illustrates the correlation between numerical features in the datase
 - Weakly correlated variables provide unique information to the model.
 - The heatmap also helps identify multicollinearity among features.
 
----
-
-##  4. ROC Curve
-<p>
-  <img src="Images/Roc_Curve.png" width="400"/>
-</p>
-
-### Description
-
-The ROC Curve evaluates the model's ability to distinguish between customers who will purchase and those who will abandon their carts.
-
-### Key Insight
-
-- A curve closer to the top-left corner indicates better model performance.
-- ROC-AUC provides a threshold-independent measure of classification quality.
-- Higher AUC values indicate stronger predictive capability.
-
 
 
 ## 📉 5. Feature Importance
 <p>
-  <img src="Images/Important_Features.png" width="500"/>
+  <img src="Images/Important_Features.png" width="700"/>
 </p>
 
 ### Description
