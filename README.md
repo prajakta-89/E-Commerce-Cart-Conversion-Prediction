@@ -39,7 +39,7 @@ The model analyzes customer behavior, website interactions, purchase history, pr
 
 ### Streamlit Dashboard
 <p>
-  <img src="Images/Dashboard1.png" width="700"/>
+  <img src="Images/Dashboard1.png" width="800"/>
 </p>
 
 ```
@@ -105,12 +105,10 @@ Engineered features include:
 ## Machine Learning Models
 
 The following models were trained and evaluated:
-
+- Random Forest + Stratify
+- Random Forest + Smote
 - Logistic Regression
 - Decision Tree
-- Random Forest
-- AdaBoost
-- Gradient Boosting
 - XGBoost
 
 
@@ -196,7 +194,7 @@ The developed solution enables the company to:
 ```
 Cart-Conversion-Prediction/
 │
-├── Dataset/
+├── Datasets/
 │   ├── Website_Activity.csv
 │   ├── Customer_Department_Targets.csv
 │   ├── Products.csv
@@ -209,13 +207,13 @@ Cart-Conversion-Prediction/
 ├── models/
 │   └── cart_conversion_model.pkl
 │
-├── dashboard/
+├── Streamlit_Dashboard/
 │   └── app.py
 │
-├── images/
+├── Images/
 │   └── dashboard.png
 │
-├── requirements.txt
+├── Requirements.txt
 │
 └── README.md
 ```
