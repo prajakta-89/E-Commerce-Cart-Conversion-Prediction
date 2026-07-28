@@ -118,7 +118,7 @@ This severe class imbalance justified the use of **SMOTE** during model training
 
 ##  3. Feature Distribution
 <p>
-  <img src="Images/Hist_Plot.png" width="600"/>
+  <img src="Images/Hist_Plot.png" width="700"/>
 </p>
 
 - Histograms display the distribution of important numerical features such as:
@@ -137,7 +137,7 @@ The distributions reveal customer browsing and purchasing patterns, helping iden
 
 ##  4. Correlation Heatmap
 <p>
-  <img src="Images/Heatmap.png" width="600"/>
+  <img src="Images/Heatmap.png" width="700"/>
 </p>
 
 - The heatmap illustrates the correlation between numerical features in the dataset.
