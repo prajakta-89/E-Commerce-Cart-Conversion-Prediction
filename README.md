@@ -149,16 +149,7 @@ The distributions reveal customer browsing and purchasing patterns, helping iden
 - The heatmap also helps identify multicollinearity among features.
 
 
-
 ##  5. Feature Importance
-<p>
-  <img src="Images/Important_Features.png" width="700"/>
-</p>
-
-- Feature importance identifies the variables that contribute most to predicting purchase completion.
-
-### Top Influential Features
-
 - Added_To_Cart
 - Session_Duration
 - Avg_Return_Rate
@@ -168,8 +159,13 @@ The distributions reveal customer browsing and purchasing patterns, helping iden
 - Pages_Viewed
 
 ### Key Insight
-
 Customer engagement, shopping behavior, and product-related attributes have the strongest influence on conversion.
+
+<p>
+  <img src="Images/Important_Features.png" width="700"/>
+</p>
+
+- Feature importance identifies the variables that contribute most to predicting purchase completion.
 
 
 ## Objectives
