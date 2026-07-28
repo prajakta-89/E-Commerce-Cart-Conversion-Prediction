@@ -170,21 +170,11 @@ The distributions reveal customer browsing and purchasing patterns, helping iden
 - The heatmap also helps identify multicollinearity among features.
 
 
-## Objectives
-
-- Predict customer purchase completion.
-- Identify customers at risk of cart abandonment.
-- Improve marketing effectiveness.
-- Increase conversion rate.
-- Recover lost revenue.
-- Support business decision-making using predictive analytics.
-
 ## Dataset Information
 
 The Cart Conversion Prediction project uses multiple datasets representing different aspects of an e-commerce business. These datasets were integrated to build a comprehensive view of customer behavior and improve the accuracy of purchase prediction.
 
 The final analytical dataset was created by merging customer information, website activity, product details, order history, and customer service records using unique identifiers.
-
 
 ### Dataset Summary
 
@@ -213,7 +203,7 @@ This dataset captures how customers interact with the e-commerce website before 
 | Added_To_Cart | Indicates whether products were added to the shopping cart |
 | Purchase_After_Cart | Target variable (0 = Cart Abandonment, 1 = Purchase Completion) |
 
-### Business Importance
+- Business Importance
 Website activity provides valuable insights into customer engagement. Customers who browse more pages and spend more time on the website are generally more likely to complete a purchase.
 
 
