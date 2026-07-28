@@ -21,10 +21,15 @@ This behavior results in:
 
 The company requires a predictive analytics solution capable of identifying customers who are likely to abandon their carts so that timely interventions can be applied.
 
+## Dashboard Preview
+### Streamlit Dashboard
+<p>
+  <img src="Images/Dashboard1.png" width="800"/>
+</p>
+
 
 
 ## Solution
-
 A Machine Learning Cart Conversion Prediction System was developed to predict whether a customer will complete a purchase after adding products to the cart.
 
 ### Target Variable
@@ -34,12 +39,9 @@ A Machine Learning Cart Conversion Prediction System was developed to predict wh
 
 The model analyzes customer behavior, website interactions, purchase history, product information, and satisfaction metrics to estimate purchase probability.
 
-
-## Dashboard Preview
-
 ### Streamlit Dashboard
 <p>
-  <img src="Images/Dashboard1.png" width="800"/>
+  <img src="Images/Dashboard_2.png" width="800"/>
 </p>
 
 
