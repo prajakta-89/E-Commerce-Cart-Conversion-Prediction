@@ -121,7 +121,7 @@ This severe class imbalance justified the use of **SMOTE** during model training
   <img src="Images/Hist_Plot.png" width="700"/>
 </p>
 
-- Histograms display the distribution of important numerical features such as:
+Histograms display the distribution of important numerical features such as:
 
 - Pages Viewed
 - Session Duration
