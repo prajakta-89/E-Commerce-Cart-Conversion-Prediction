@@ -82,6 +82,25 @@ Cart-Conversion-Prediction/
 └── README.md
 ```
 
+## Machine Learning Models
+The following models were trained and evaluated:
+- Random Forest + Stratify
+- Random Forest + Smote
+- Logistic Regression
+- Decision Tree
+- XGBoost
+
+
+## Model Evaluation
+Evaluation metrics used:
+
+- Accuracy
+- Precision
+- Recall
+- F1 Score
+- ROC-AUC Score
+- Confusion Matrix
+
 ## 📊 Exploratory Data Analysis & Visualizations
 The following visualizations provide insights into customer behavior, purchase patterns, and the key factors influencing cart conversion.
 
@@ -353,26 +372,6 @@ Customer engagement, shopping behavior, and product-related attributes have the 
 - Feature importance identifies the variables that contribute most to predicting purchase completion.
 
 
-## Machine Learning Models
-
-The following models were trained and evaluated:
-- Random Forest + Stratify
-- Random Forest + Smote
-- Logistic Regression
-- Decision Tree
-- XGBoost
-
-
-## Model Evaluation
-
-Evaluation metrics used:
-
-- Accuracy
-- Precision
-- Recall
-- F1 Score
-- ROC-AUC Score
-- Confusion Matrix
 
 ## Exploratory Data Analysis
 
