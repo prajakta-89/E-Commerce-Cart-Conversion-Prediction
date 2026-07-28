@@ -187,7 +187,7 @@ Dataset
 
 
 
-### 1. Website Activity Dataset
+## 1. Website Activity Dataset
 ### Purpose
 
 This dataset captures how customers interact with the e-commerce website before making a purchase decision. It provides behavioral information that helps understand customer engagement and browsing patterns.
@@ -203,12 +203,12 @@ This dataset captures how customers interact with the e-commerce website before 
 | Added_To_Cart | Indicates whether products were added to the shopping cart |
 | Purchase_After_Cart | Target variable (0 = Cart Abandonment, 1 = Purchase Completion) |
 
-- Business Importance
+### Business Importance
 Website activity provides valuable insights into customer engagement. Customers who browse more pages and spend more time on the website are generally more likely to complete a purchase.
 
 
 
-### 2. Customer Department Targets Dataset
+## 2. Customer Department Targets Dataset
 ### Purpose
 
 This dataset contains customer profile information, loyalty details, purchasing history, and marketing engagement metrics.
@@ -233,7 +233,7 @@ This dataset contains customer profile information, loyalty details, purchasing 
 Customer profile information helps identify loyal, high-value customers and measures long-term purchasing behavior. These variables are essential for understanding customer retention and future purchase potential.
 
 
-### 3. Customer Service Dataset
+## 3. Customer Service Dataset
 
 ### Purpose
 
@@ -261,7 +261,7 @@ Avg_Service_Satisfaction
 Customer satisfaction has a direct influence on repeat purchases. Customers with higher satisfaction scores generally demonstrate higher purchase conversion rates.
 
 
-### 4. Orders Dataset
+## 4. Orders Dataset
 
 ### Purpose
 
@@ -282,7 +282,7 @@ Order history helps understand purchasing frequency and customer buying behavior
 
 
 
-### 5. Products Dataset
+## 5. Products Dataset
 
 ### Purpose
 
