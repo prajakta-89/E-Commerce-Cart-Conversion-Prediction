@@ -151,25 +151,6 @@ The distributions reveal customer browsing and purchasing patterns, helping iden
 - The heatmap also helps identify multicollinearity among features.
 
 
-##  5. Feature Importance
-- Added_To_Cart
-- Session_Duration
-- Avg_Return_Rate
-- Avg_Product_Price
-- Avg_Order_Value
-- Customer_Lifetime_Value
-- Pages_Viewed
-
-### Key Insight
-Customer engagement, shopping behavior, and product-related attributes have the strongest influence on conversion.
-
-<p>
-  <img src="Images/Important_Features.png" width="700"/>
-</p>
-
-- Feature importance identifies the variables that contribute most to predicting purchase completion.
-
-
 ## Objectives
 
 - Predict customer purchase completion.
@@ -338,7 +319,7 @@ This integration ensured that every customer record contained website behavior, 
 - **Missing Values:** Handled during preprocessing
 - **Class Imbalance:** Addressed using SMOTE
 - **Train-Test Split:** 80:20 using Stratified Sampling
-- 
+ 
 
 ## Data Preprocessing
 The following preprocessing steps were performed:
@@ -353,18 +334,23 @@ The following preprocessing steps were performed:
 - Class imbalance handling using SMOTE
 - Train-Test Split using Stratified Sampling
 
-## Feature Engineering
-Engineered features include:
-
-- Avg_Service_Satisfaction
-- Avg_Product_Rating
-- Avg_Product_Price
+## Feature Importance
+- Added_To_Cart
+- Session_Duration
 - Avg_Return_Rate
-- Customer_Lifetime_Value
-- Campaign_Click_Rate
+- Avg_Product_Price
 - Avg_Order_Value
-- Total_Orders
-- Recency_Days
+- Customer_Lifetime_Value
+- Pages_Viewed
+
+### Key Insight
+Customer engagement, shopping behavior, and product-related attributes have the strongest influence on conversion.
+
+<p>
+  <img src="Images/Important_Features.png" width="700"/>
+</p>
+
+- Feature importance identifies the variables that contribute most to predicting purchase completion.
 
 
 ## Machine Learning Models
