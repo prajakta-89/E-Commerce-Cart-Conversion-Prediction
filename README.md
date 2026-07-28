@@ -240,6 +240,41 @@ Key analyses performed:
 - Pages Viewed Analysis
 - Feature Importance
 
+## Project Structure
+
+```
+Cart-Conversion-Prediction/
+│
+├── Datasets/
+│   ├── Website_Activity.csv
+│   ├── Customer_Department_Targets.csv
+│   ├── Products.csv
+│   ├── Orders.csv
+│   └── Customer_Service.csv
+│
+├── notebooks/
+│   └── E_Commerce_Cart_Conversion_Prediction.ipynb
+│
+├── models/
+│   └── cart_conversion_model.pkl
+│
+├── Streamlit_Dashboard/
+│   └── app.py
+│
+├── Images/
+│   ├── Dashboard1.png
+│   ├── Important_Features
+│   ├── Roc_Curve
+│   ├── Hist_Plot
+│   ├── Heatmap
+│   ├── Target_Distribution
+│   └── Dashboard_2.png
+│
+├── Requirements.txt
+│
+└── README.md
+```
+
 ## Business Insights
 
 Key findings include:
@@ -266,7 +301,7 @@ The developed solution enables the company to:
 - Enhance customer experience.
 
 
-## Technology Stack
+## Technology Used
 
 ### Programming
 
@@ -288,37 +323,6 @@ The developed solution enables the company to:
 - Seaborn
 - Streamlit
 
-
-
-## Project Structure
-
-```
-Cart-Conversion-Prediction/
-│
-├── Datasets/
-│   ├── Website_Activity.csv
-│   ├── Customer_Department_Targets.csv
-│   ├── Products.csv
-│   ├── Orders.csv
-│   └── Customer_Service.csv
-│
-├── notebooks/
-│   └── E_Commerce_Cart_Conversion_Prediction.ipynb
-│
-├── models/
-│   └── cart_conversion_model.pkl
-│
-├── Streamlit_Dashboard/
-│   └── app.py
-│
-├── Images/
-│   ├── Dashboard1.png
-│   └── Dashboard_2.png
-│
-├── Requirements.txt
-│
-└── README.md
-```
 
 ## Installation
 
