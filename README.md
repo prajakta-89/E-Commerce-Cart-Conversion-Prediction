@@ -43,7 +43,7 @@ The company requires a predictive analytics solution capable of identifying cust
 ## Dashboard Preview
 ### Streamlit Dashboard
 <p>
-  <img src="Images/Page1.png" width="800"/>
+  <img src="Streamlit_preview/Page1.png" width="800"/>
 </p>
 
 
@@ -60,7 +60,7 @@ The model analyzes customer behavior, website interactions, purchase history, pr
 
 ### Streamlit Dashboard
 <p>
-  <img src="Images/Page2.png" width="800"/>
+  <img src="Streamlit_preview/Page2.png" width="800"/>
 </p>
 
 
