@@ -434,6 +434,14 @@ Key findings include:
 - Product ratings and pricing influence customer purchase decisions.
 
 
+## 🎥 Project Demo
+
+Watch the complete project demonstration on YouTube:
+
+[▶️ Watch Project Demo](https://youtu.be/ezXaspB0EIk)
+
+This video demonstrates the project workflow, key features, dashboard functionality, and results.
+
 ## Business Impact
 The developed solution enables the company to:
 
