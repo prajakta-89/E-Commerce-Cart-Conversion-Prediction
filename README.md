@@ -113,6 +113,10 @@ Cart-Conversion-Prediction/
   <img src="Streamlit_preview/page3.png" width="800"/>
 </p>
 
+<p>
+  <img src="Streamlit_preview/page3_2.png" width="800"/>
+</p>
+
 ## Machine Learning Models
 The following models were trained and evaluated:
 - Random Forest + Stratify
