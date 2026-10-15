@@ -46,6 +46,9 @@ The company requires a predictive analytics solution capable of identifying cust
   <img src="Streamlit_preview/Page1.png" width="800"/>
 </p>
 
+<p>
+  <img src="Streamlit_preview/page1_2.png" width="800"/>
+</p>
 
 
 ## Solution
@@ -63,6 +66,9 @@ The model analyzes customer behavior, website interactions, purchase history, pr
   <img src="Streamlit_preview/Page2.png" width="800"/>
 </p>
 
+<p>
+  <img src="Streamlit_preview/page2_2.png" width="800"/>
+</p>
 
 ## Project Structure
 
