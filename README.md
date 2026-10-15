@@ -107,6 +107,12 @@ Cart-Conversion-Prediction/
 └── README.md
 ```
 
+
+### RFM Analytics
+<p>
+  <img src="Streamlit_preview/page3.png" width="800"/>
+</p>
+
 ## Machine Learning Models
 The following models were trained and evaluated:
 - Random Forest + Stratify
