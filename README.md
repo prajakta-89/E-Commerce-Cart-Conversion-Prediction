@@ -114,7 +114,7 @@ Cart-Conversion-Prediction/
 </p>
 
 <p>
-  <img src="Streamlit_preview/page3_2.png" width="800"/>
+  <img src="Streamlit_preview/page3_3.png" width="800"/>
 </p>
 
 ## Machine Learning Models
